@@ -44,38 +44,60 @@
       background: #ccc;
       margin: 1.5rem 0;
     }
+
+    /* ボタン部分 */
+    .answer-btn {
+      display: block;
+      margin: 2rem auto 0 auto;
+      padding: 0.8rem 2.5rem;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      border: 1px solid #7a8a99;
+      border-radius: 0.4rem;
+      background-color: #f5f7f9;
+      color: #2c3e50;
+      font-family: "Yu Mincho", serif;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    }
+    .answer-btn:hover {
+      background-color: #e8eff3;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 <body>
   <div class="record">
-    <h1>ここに答えがあります</h1>
-    <!--
-        答え：ゆきだるま
-    -->
+    <h1>報告書</h1>
+    <!-- 答え：ゆきだるま -->
     <div class="divider"></div>
 
     <div class="entry">
       <div class="date">1月9日（木）</div>
-      <p>現場到着。周囲は一面の白。誰もいないはずの庭に、二つ並んだ円形の跡を確認。周囲の足跡は途中で途切れている。</p>
-      <p>その跡の中心に、小さな黒いボタンのようなものが落ちていた。おそらく衣服のものと思われる。</p>
+      <p>現場は静かで、雪が薄く積もっていた。中央に二つの丸い跡と、黒いボタンのようなものを発見。人の気配はない。</p>
     </div>
 
     <div class="entry">
       <div class="date">1月10日（金）</div>
-      <p>昨夜降った雪で跡は薄れたが、代わりに地面に水滴の痕が点々と残っていた。気温上昇が原因かもしれない。</p>
-      <p>ボタンの持ち主はまだ特定できず。何かが「形を変えて」そこにあったような印象を受ける。</p>
+      <p>気温が上がり、跡は一部崩れていた。水滴の列が地面を伝っており、形が変わったようだ。</p>
+      <p>報告書をまとめていたところ、助手が「表にない記述がある」と指摘。裏面を確認してみる必要がある。</p>
     </div>
 
     <div class="entry">
       <div class="date">1月11日（土）</div>
-      <p>再調査。跡は完全に消えていた。空は晴れ、地表の反射がまぶしい。昨日まで確かにあった「存在」の痕跡は、今はもう見えない。</p>
-      <p>ただ、子どもの笑い声だけが、遠くから微かに聞こえていた。</p>
+      <p>再調査を実施。現場にはもう何も残っていなかった。ただ、記録の裏に書かれたメモが気になる。</p>
+      <p>この報告の“裏側”を見れば、何かが分かる気がする。</p>
     </div>
 
     <div class="divider"></div>
     <p style="font-size:0.9rem; color:#666; text-align:center;">―― 調査官 個人記録より</p>
+
+    <a href="" class="answer-btn">解答する</a>
   </div>
 
-
+  
 </body>
 </html>
